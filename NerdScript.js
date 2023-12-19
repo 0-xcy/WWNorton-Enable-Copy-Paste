@@ -13,7 +13,7 @@
     function openIframeSourceInNewTab() {
         var iframe = document.querySelector('#iframe-content');
         var src = iframe.src;
-        console.log(src);
+        // console.log(src);
         window.open(src, '_blank');
     }
 
